@@ -1,12 +1,14 @@
+package main.java.com.ecosystemsimulator.core.beings;
+
 import java.util.ArrayList;
 import java.util.List;
 
 // Logica completa! Porem, apenas para classes concretas!
 
-/* Transformar LiveBeing em abstrato, e criar classes ENUM
+/* Transformar main.java.com.ecosystemsimulator.core.beings.LiveBeing em abstrato, e criar classes ENUM
    para guardar cada reino e especie (talvez fazer isso em
    uma classe só? Ou dividir em duas entidades? De toda forma,
-   associar tais casos a classes como Human e outras, para tais
+   associar tais casos a classes como main.java.com.ecosystemsimulator.core.beings.Human e outras, para tais
    infos serem associadas diretamente DENTRO de cada entidade criada!
  */
 
@@ -27,11 +29,11 @@ public class LiveBeing {
     //Enumerando especies de cada reino
     private enum Specie{
 
-        HOMO_SAPIENS("Human", Kingdom.ANIMALIA),
-        COCOS_NUCIFERA("Coconut", Kingdom.PLANTAE),
-        AGARICUS_BISPORUS("Champignon", Kingdom.FUNGI),
-        AMOEBA_PROTEUS("Ameba", Kingdom.PROTISTA),
-        OSCILLATORIA("Cyanobacteria", Kingdom.MONERA);
+        HOMO_SAPIENS("human", Kingdom.ANIMALIA),
+        COCOS_NUCIFERA("coconut", Kingdom.PLANTAE),
+        AGARICUS_BISPORUS("champignon", Kingdom.FUNGI),
+        AMOEBA_PROTEUS("ameba", Kingdom.PROTISTA),
+        OSCILLATORIA("cyanobacteria", Kingdom.MONERA);
 
         private final String name, specie;
         private final Kingdom kingdom;

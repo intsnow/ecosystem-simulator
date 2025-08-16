@@ -1,4 +1,4 @@
-package human_BodyParts.Head;
+package main.java.com.ecosystemsimulator.core.beings.anatomies.human_anatomy.Head;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -42,7 +42,7 @@ public class BodyParts {
         for (Object part: parts){
             if (part.equals(null)) {
 
-                System.out.printf("FAIL! Human body is NOT ready...");
+                System.out.printf("FAIL! main.java.com.ecosystemsimulator.core.beings.Human body is NOT ready...");
                 return false;
             }
         }

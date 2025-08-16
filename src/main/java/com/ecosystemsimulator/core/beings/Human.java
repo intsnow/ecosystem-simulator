@@ -1,4 +1,6 @@
-import human_BodyParts.Head.BodyParts;
+package main.java.com.ecosystemsimulator.core.beings;
+
+import main.java.com.ecosystemsimulator.core.beings.anatomies.human_anatomy.Head.BodyParts;
 
 import java.util.*;
 
@@ -54,7 +56,7 @@ public class Human
 
         }
 
-        //Action action = Action.getAction();
+        //main.java.com.ecosystemsimulator.actions.Action action = main.java.com.ecosystemsimulator.actions.Action.getAction();
 
 
     }

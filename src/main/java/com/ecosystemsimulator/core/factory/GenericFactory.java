@@ -1,3 +1,5 @@
+package main.java.com.ecosystemsimulator.core.factory;
+
 public class GenericFactory<T>{
 
     private final Class<T> type;
